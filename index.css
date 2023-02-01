@@ -1,0 +1,438 @@
+.body
+{
+    position: relative;
+    width: 1440px;
+    height: 2061px;
+    top: -1031px;
+    left: -720px;
+    
+    background: #FFFFFF;
+}
+
+.luxury
+{
+    position: absolute;
+    width: 186px;
+    height: 48px;
+    left: calc(50% - 186px/2 - 611px);
+    top: 41px;
+    
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    letter-spacing: 0.15em;
+    
+    color: #14274A;
+    
+}
+
+.hotels
+{
+    position: absolute;
+    width: 104px;
+    height: 18px;
+    left: calc(50% - 104px/2 - 613px);
+    top: 83px;
+    
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    letter-spacing: 0.6em;
+    
+    color: #14274A;
+    
+}
+
+.menu
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 391px;
+    height: 23px;
+    left: calc(50% - 391px/2 + 448.5px);
+    top: 59px;    
+}
+
+.home
+{
+    width: 54px;
+    height: 23px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Facilities
+{
+    width: 80px;
+    height: 23px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+    border: 0.5px solid #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Rooms
+{
+    width: 64px;
+    height: 23px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+    border: 0.5px solid #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.Contact-us
+{
+    width: 97px;
+    height: 23px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    
+    border: 0.5px solid #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.banner1
+{
+    position: absolute;
+    width: 1408px;
+    height: 733px;
+    left: calc(50% - 1408px/2);
+    top: 142px;
+}
+
+.banner2
+{
+    position: absolute;
+    width: 688px;
+    height: 457px;
+    left: calc(50% - 688px/2 + 360px);
+    top: 939px;    
+}
+
+.main-content1
+{
+    position: absolute;
+    width: 377px;
+    height: 56px;
+    left: calc(50% - 377px/2 - 515.5px);
+    top: 939px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    
+    color: #14274A;
+    
+}
+
+.item1
+{
+    position: absolute;
+    width: 688px;
+    height: 69px;
+    left: calc(50% - 688px/2 - 360px);
+    top: 1027px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #14274A;
+    
+}
+
+
+.bt1
+{
+    position: absolute;
+    width: 236px;
+    height: 63px;
+    left: calc(50% - 236px/2 - 586px);
+    top: 1128px;
+    
+    background: #E0B973;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+    
+    border: 1px solid #FFFFFF;
+    
+}
+.bt1
+{
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 #000000;
+    transition: .5s;
+}
+.bt1:active
+{
+    box-shadow: none;
+    transform: translateY(10px);
+}
+
+/*.product2
+{
+    position: absolute;
+    width: 1408px;
+    height: 387px;
+    left: 16px;
+    top: 1460px;
+}*/
+
+.banner3
+{
+    position: absolute;
+    width: 688px;
+    height: 387px;
+    left: calc(50% - 688px/2 + 360px);
+    top: 1460px;
+}
+
+.main-content2
+{
+    position: absolute;
+    width: 491px;
+    height: 112px;
+    left: calc(50% - 491px/2 - 458.5px);
+    top: 1460px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    
+    color: #14274A;
+}
+
+.item2
+{
+    position: absolute;
+    width: 688px;
+    height: 69px;
+    left: calc(50% - 688px/2 - 360px);
+    top: 1604px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #14274A;
+}
+
+.bt2
+{
+    position: absolute;
+    width: 236px;
+    height: 63px;
+    left: calc(50% - 236px/2 - 586px);
+    top: 1705px;
+    
+    background: #E0B973;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+    
+    border: 1px solid #FFFFFF;
+    
+}
+.bt2
+{
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 #000000;
+    transition: .5s;
+}
+.bt2:active
+{
+    box-shadow: none;
+    transform: translateY(10px);
+}
+
+.theme-footer
+{
+    background-color: #132F66;
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: calc(50% - 1440px/2);
+    top: 1911px;
+}
+
+.luxury1
+{
+    position: absolute;
+    width: 118px;
+    height: 38px;
+    left: calc(50% - 118px/2 - 645px);
+    top: 1967px;
+    
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.15em;
+    
+    color: #FFFFFF;
+}
+
+.hotels1
+{
+    position: absolute;
+    width: 63px;
+    height: 8px;
+    left: calc(50% - 63px/2 - 648.5px);
+    top: 1997px;
+    
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.6em;
+    
+    color: #FFFFFF;
+}
+
+.name-email
+{
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    left: calc(50% - 115px/2 + 411.5px);
+    top: 1975px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.form-email
+{
+    position: absolute;
+    width: 278px;
+    height: 52px;
+    left: calc(50% - 278px/2 + 468px);
+    top: 1960px;
+    
+    border-radius: 10px;
+    border: 5px solid #E0B973;
+    background-color: #FFFFFF;
+}
+
+.bt3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 80px;
+    height: 64px;
+    left: calc(50% - 80px/2 + 664px);
+    top: 1960px;
+    
+    color: #fff;
+    border: none;
+    background: #E0B973;
+    border-radius: 10px;;
+}
+.bt3:hover
+{
+    font-size: 18px;
+}
